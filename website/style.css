@@ -1,0 +1,106 @@
+body {
+    background-image: url(./kid.jfif);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+
+
+.logo{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color:chartreuse;
+}
+
+
+
+.navbar ul {
+
+    list-style: none;
+    
+}
+
+.navbar li{
+    display: inline-block;
+   
+
+}
+
+.navbar a{
+    text-decoration:none ;
+    color:coral;
+    width: 100px;
+    display: block;
+    padding: 25px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.navbar a:hover{
+    background-color: gray;
+
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+.navbar ul li:hover .dropdown-menu {
+    display: inline-block;
+   
+
+}
+
+.navbar ul li:hover .dropdown-menu ul {
+
+    display:block;
+    margin:10px ;
+
+}
+.navbar ul li:hover .dropdown-menu ul li{
+    width: 150px ;
+    padding: 10px;
+}
+
+
+#heading{
+    margin: 35px 55px;
+    padding: 25px ;
+}
+
+
+#button{
+
+    margin: 0px 25px;
+    background-color:lightseagreen;
+    color: white;
+    border-radius:30px ;
+}
+
+.a{
+    
+ 
+ min-height: 200px; 
+
+display: flex;
+justify-content: center;
+align-items: center; 
+ 
+    
+}
+
+.block-a{
+    
+   max-width:300px;  height: 200px;
+    margin: 25px;
+    padding-top: 15px;
+    text-align: center;
+    
+}
+
+.block-a:nth-child(1){background-color:yellowgreen;}
+.block-a:nth-child(2){background-color:coral;}
+.block-a:nth-child(3){background-color:cornflowerblue;}
